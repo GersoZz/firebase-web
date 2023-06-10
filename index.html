@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carga Viral</title>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script defer src="./init-firebase.js"></script>
+    <script defer src="//cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <h1>ESP-32</h1>
+    <h1 id="divLoading">Loading</h1>
+    <canvas id="canvas-id"></canvas>
+
+    <!--     <div>
+      <canvas id="myChart"></canvas>
+    </div> -->
+
+    <!--     <div id="datos"></div> -->
+    <div>
+      <button id="boton">Generar Valor</button>
+    </div>
+  </body>
+</html>
